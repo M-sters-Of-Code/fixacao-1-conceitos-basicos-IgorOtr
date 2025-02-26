@@ -8,9 +8,9 @@ namespace FixacaoConceitosBasicos1.Model
 {
     public class MetrosMilimetros
     { 
-        public static int Converter(int num1, int num2)
+        public static double Converter(double num)
         {
-            return num1 + num2;
+            return num * 1000;
         }
 
     }
